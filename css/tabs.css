@@ -7,11 +7,14 @@
 .tab_inner {
 
     display: flex;
+    width: 100%;
     border: 1px solid #C6CBCD;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 20px;
+    column-gap: 80px;
 
 }
+
 
 .tab_content {
     padding: 40px;
@@ -49,7 +52,10 @@
 
 
 .tab_list {
-text-align: center;
+text-align: left;
+max-width: 1170px;
+margin: auto;
+width: 100%;
 }
 .tab_list li {
     display: inline-block;
@@ -68,5 +74,8 @@ text-align: center;
     border: 1px solid #C6CBCD;
     border-bottom: none;
     border-radius: 5px;
+    text-align: left;
 
 }
+
+

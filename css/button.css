@@ -20,8 +20,12 @@
     }
 
 .button_intro:hover {
-    background: #a50d0d;
+    color: #EC7979;
+    border: 2px solid #EC7979;
     transition: background-color .2s linear;
+}
+.button_intro:active{
+    background: #AB4949;
 }
 
 
@@ -42,9 +46,13 @@
 
 .start_button:hover {
 
-        background: #a50d0d;
-        transition: background-color .2s linear;
+    background: #AB4949;
+    transition: background-color .2s linear;
     }
+
+.start_button:active{
+    background: #EC7979;
+}
 
 
 .button_tabs {
@@ -61,8 +69,12 @@
 }
 
 .button_tabs:hover {
-    background: #a50d0d;
+    background: #AB4949;
     transition: background-color .2s linear;
+}
+
+.button_tabs:active{
+    background: #EC7979;
 }
 
 .button--contact {

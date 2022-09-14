@@ -1,0 +1,84 @@
+@import url(awesome.css);
+@import url(button.css);
+@import url(contact.css);
+@import url(customers.css);
+@import url(tabs.css);
+@import url(design.css);
+@import url(footer.css);
+@import url(header.css);
+@import url(input.css);
+@import url(intro.css);
+@import url(social.css);
+@import url(pricing.css);
+
+
+
+
+
+
+
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    
+    
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+
+.container {
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+}
+
+
+
+
+
+/* Section */
+.section {
+    padding: 50px 0;
+}
+
+.section--gray {
+    background: #F5F5F5;
+}
+
+.section--bottom-margin-big {
+  padding-bottom: 64px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+
+
+
+
+

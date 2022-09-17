@@ -70,7 +70,7 @@ width: 100%;
 
 }
 .tab_links {
-    padding: 10px 60px;
+    padding: 10px 80px;
     border: 1px solid #C6CBCD;
     border-bottom: none;
     border-radius: 5px;
@@ -78,4 +78,6 @@ width: 100%;
 
 }
 
-
+.tab--inactive {
+    border: none;
+}

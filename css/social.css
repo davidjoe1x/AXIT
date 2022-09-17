@@ -20,7 +20,7 @@ color: #86878B;
 }
 
 .social_img {
-    margin-right: 30px;
+    margin-right: 20px;
 }
 .social_title {
 font-style: normal;
@@ -40,6 +40,13 @@ line-height: 21px;
 color: #86878B;
 }
 
-.social_right{
+.social{
     padding-top: 20px;
+}
+
+.social--footer {
+    max-width: 54px;
+    margin-right: 34px;
+
+
 }

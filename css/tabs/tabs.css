@@ -1,0 +1,160 @@
+/* Tabs */
+.tabs {
+    margin:100px 0;
+
+}
+
+
+
+
+.tab_content {
+    padding: 40px;
+ 
+
+}
+
+.tabs_title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+    color: #000000;
+    }
+    
+    .tab_text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 50px;
+    }
+    
+   .tab_img {
+    vertical-align: middle;
+
+    
+   }
+
+
+
+
+
+.tab_list li {
+    display: inline-block;
+
+}
+
+.tab_links a {
+    text-decoration: none;
+    color:  #333333;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+.tab_links {
+    padding: 10px 80px;
+    border: 1px solid #C6CBCD;
+    border-bottom: none;
+    border-radius: 5px;
+    text-align: left;
+
+}
+
+.tab--inactive {
+    border: none;
+}
+
+
+
+/* tab-slide */
+
+.tab_slide {
+    font-size: 0;
+    text-align: left;
+    max-width: 1170px;
+    margin: auto;
+    width: 100%;
+  }
+
+  .tab_slide>input[type="radio"] {
+    display: none;
+
+  }
+
+  .tab_slide>div {
+    /* скрыть контент по умолчанию */
+    display: none;
+    border: 1px solid #C6CBCD;
+    padding: 10px 15px;
+    font-size: 16px;
+
+    
+  }
+
+  /* отобразить контент, связанный с вабранной радиокнопкой (input type="radio") */
+  #tab-btn-1:checked~#content-1,
+  #tab-btn-2:checked~#content-2,
+  #tab-btn-3:checked~#content-3 {
+    display: flex;
+    padding: 0;
+    column-gap: 80px;
+
+
+  
+  }
+
+
+
+  
+  .tab_slide>label {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: #fff;
+
+    padding: 2px 8px;
+    font-size: 16px;
+    line-height: 1.5;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+    cursor: pointer;
+    position: relative;
+    top: 1px;
+    margin-right: 72px;
+  }
+  
+
+  .tab_slide>label:not(:first-of-type) {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: #fff;
+    
+
+    padding: 2px 8px;
+    font-size: 16px;
+    line-height: 1.5;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+    cursor: pointer;
+    position: relative;
+    top: 1px;
+  }
+
+  .tab_slide>input[type="radio"]:checked+label {
+    background-color: #fff;
+    border-bottom: 1px solid #fff !important;
+    padding: 10px 80px;
+    border-radius: 5px 5px 0px 0px;
+    border: 1px solid #C6CBCD;
+
+    
+
+  }
+
+ 

@@ -1,15 +1,15 @@
-@import url(awesome.css);
-@import url(button.css);
-@import url(contact.css);
-@import url(customers.css);
-@import url(tabs.css);
-@import url(design.css);
-@import url(footer.css);
-@import url(header.css);
-@import url(input.css);
-@import url(intro.css);
-@import url(social.css);
-@import url(pricing.css);
+@import url(../css/awesome/awesome.css);
+@import url(../css/button/button.css);
+@import url(../css/contact/contact.css);
+@import url(../css/customers/customers.css);
+@import url(../css/tabs/tabs.css);
+@import url(../css/design/design.css);
+@import url(../css/footer/footer.css);
+@import url(../css/header/header.css);
+@import url(../css/input/input.css);
+@import url(../css/intro/intro.css);
+@import url(../css/social/social.css);
+@import url(../css/pricing/pricing.css);
 
 @font-face {
     font-family: 'Open Sans';

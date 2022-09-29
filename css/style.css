@@ -10,6 +10,7 @@
 @import url(../css/intro/intro.css);
 @import url(../css/social/social.css);
 @import url(../css/pricing/pricing.css);
+@import url(../css/media/media.css);
 
 @font-face {
     font-family: 'Open Sans';
@@ -50,6 +51,7 @@
 
 
 
+
 *, *::after, *::before {
     box-sizing: border-box;
 }
@@ -80,11 +82,12 @@ ul {
 
 
 .container {
+    width: 100%;
     max-width: 1170px;
     display: flex;
     justify-content: space-between;
     margin: auto;
-    width: 100%;
+    
 }
 
 

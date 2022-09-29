@@ -9,6 +9,8 @@
 
 .tab_content {
     padding: 40px;
+  
+   
  
 
 }
@@ -149,7 +151,9 @@
   .tab_slide>input[type="radio"]:checked+label {
     background-color: #fff;
     border-bottom: 1px solid #fff !important;
-    padding: 10px 80px;
+    width: 100%;
+    max-width: 250px;
+    padding: 10px 0;
     border-radius: 5px 5px 0px 0px;
     border: 1px solid #C6CBCD;
 

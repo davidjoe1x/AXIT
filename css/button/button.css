@@ -59,11 +59,14 @@
     background: #EC7979;
     text-decoration: none;
     padding: 20px 100px;
+    max-width: 295px;
+    display: block;
     color: #FFFFFF;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
+    text-align: center;
     
 
 }
@@ -78,5 +81,6 @@
 }
 
 .button--contact {
-    padding: 15px 150px;
+    max-width: 370px;
+    margin: auto;
 }

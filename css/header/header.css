@@ -50,3 +50,12 @@ transition: background-color .2s linear;
 .nav_link:active {
 background: #AB4949;
 }
+
+.nav__check {
+    display: none;
+}
+
+
+.nav__showmenu {
+    display: none;
+}

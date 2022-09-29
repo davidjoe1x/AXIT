@@ -44,6 +44,7 @@
 position: relative;
 margin-right: 30px;
 margin-bottom: 50px;
+
 }
 
 .triangle {
@@ -88,3 +89,14 @@ color: #000000;
     flex-direction: column;
 
 }
+
+iframe {
+    display: none;
+}
+
+
+
+.gallery{
+    display: none;
+} 
+

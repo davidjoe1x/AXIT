@@ -16,17 +16,28 @@
     <div class="container">
         <div class="header_inner">
             <img class="header_logo" src="assets/logo.png" alt="">
-            <nav class="nav">
-                <ul>
-                    <li><a class="nav_link" href="">Features</a></li>
-                    <li><a class="nav_link" href="">About</a></li>
-                    <li><a class="nav_link" href="">Pricing</a></li>
-                    <li><a class="nav_link" href="">Review</a></li>
-                    <li><a class="nav_link" href="">Contact</a></li>
-                </ul>
+           
+        
+                <nav class="nav">
+                    <input class="nav__check" type="checkbox" id="showmenu"/>
+                    <label class="nav__showmenu" for="showmenu">
+                        <img src="../AXIT/assets/menu.png">
+                    </label>
+                    <label class="nav__back" for="showmenu"></label>
+                    <ul class="menu">
+                        <li><a class="nav_link" href="">Features</a></li>
+                        <li><a class="nav_link" href="">About</a></li>
+                        <li><a class="nav_link" href="">Pricing</a></li>
+                        <li><a class="nav_link" href="">Review</a></li>
+                        <li><a class="nav_link" href="">Contact</a></li>
+                    </ul>
+             
+
+                
             </nav>
         </div>
     </div>
+    
 </header>
 
 <!--Intro-->
@@ -281,7 +292,77 @@
                 <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             
         <div class="container">
+            <!-- Slider responsive -->
+            <div class="gallery items-3">
+                <div id="item-1" class="control-operator"></div>
+                <div id="item-2" class="control-operator"></div>
+                <div id="item-3" class="control-operator"></div>
+              
+                <figure class="item">
+                  <div class="customer_slide">
+                    <p class="customer_rv">Lorem ipsum dolor sit amet,<br> 
+                        consectetur adipisicing elit. Doloribus <br> 
+                        accusamus expedita repellat similique <br> 
+                        odio aspernatur ex, architecto eaque <br> 
+                        quo suscipit.</p>
+                        <img class="triangle" src="assets/triangle.png">
+                        <div class="people_item">
+                        <img class="people_img" src="assets/face1.png" alt="">
+                        <div class="people_desc">
+                        <h3 class="people_name">Davis Rhiel Madsen</h3><br>
+                        <p class="people_job">Manager</p>
+                    </div>
+                        
+                    </div>
+                    </div>          
+                </figure>
+              
+                <figure class="item">
+                  <div class="customer_slide">
+                    <p class="customer_rv">Lorem ipsum dolor sit amet,<br> 
+                        consectetur adipisicing elit. Doloribus <br> 
+                        accusamus expedita repellat similique <br> 
+                        odio aspernatur ex, architecto eaque <br> 
+                        quo suscipit.</p>
+                        <img class="triangle" src="assets/triangle.png">
+                        <div class="people_item">
+                            <img class="people_img" src="assets/face2.png" alt="">
+                            <div class="people_desc">
+                            <h3 class="people_name">Jaydon Rosser</h3><br>
+                            <p class="people_job">Manager</p>
+                        </div>
+                    </div>
+            
+                    </div>
+                </figure>
+              
+                <figure class="item">
+                  <div class="customer_slide">
+                    <p class="customer_rv">Lorem ipsum dolor sit amet,<br> 
+                        consectetur adipisicing elit. Doloribus <br> 
+                        accusamus expedita repellat similique <br> 
+                        odio aspernatur ex, architecto eaque <br> 
+                        quo suscipit.</p>
+                        <img class="triangle" src="assets/triangle.png">
+                        <div class="people_item">
+                            <img class="people_img" src="assets/face3.png" alt="">
+                            <div class="people_desc">
+                            <h3 class="people_name">Cooper Dorwart</h3><br>
+                            <p class="people_job">Manager</p>
+                        </div>
+                    </div>
+            
+                    </div>
+                </figure>
+              
+                <div class="controls">
+                  <a href="#item-1" class="control-button">•</a>
+                  <a href="#item-2" class="control-button">•</a>
+                  <a href="#item-3" class="control-button">•</a>
+                </div>
+              </div>
 
+           
                 <div class="customer_card">
                 <p class="customer_rv">Lorem ipsum dolor sit amet,<br> 
                     consectetur adipisicing elit. Doloribus <br> 
@@ -330,6 +411,7 @@
                         </div>
     
                         </div>
+                   
                         
             </div>
             </div>

@@ -10,7 +10,9 @@
 @import url(../css/intro/intro.css);
 @import url(../css/social/social.css);
 @import url(../css/pricing/pricing.css);
-@import url(../css/media/media.css);
+@import url(../css/media/media320.css);
+@import url(../css/media/media1024.css);
+
 
 @font-face {
     font-family: 'Open Sans';
@@ -87,6 +89,7 @@ ul {
     display: flex;
     justify-content: space-between;
     margin: auto;
+
     
 }
 

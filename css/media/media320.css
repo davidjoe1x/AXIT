@@ -1,7 +1,12 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {  
   .container{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.description {
+  margin: 0;
 }
 
 .header_logo {
@@ -16,7 +21,7 @@
   font-size: 24px;
   line-height: 29px;
   padding-bottom: 50px;
-  padding-top: 50px;
+
 }
 
 
@@ -32,6 +37,18 @@
   margin-bottom: 56px;
   width: 100%;
 
+}
+
+.main {
+  max-width: 288px;
+  margin: auto;
+}
+
+
+.start_button {
+  position: absolute;
+    top: 318px;
+    left: 0;
 }
 
     .title_main {
@@ -58,6 +75,10 @@
         text-align: center;
         line-height: 17px;
     }
+    
+    .main_text_item {
+      margin: auto;
+    }
    
 
  
@@ -66,6 +87,8 @@
     padding-top: 85px;
     display: flex;
     flex-direction: column;
+    padding-bottom: 57px;
+
 
 
 
@@ -75,15 +98,23 @@
         width: 100%;
         max-width: 288px;
         margin:auto;
-        
-
+        height: 378px;
     
+    }
+
+    .intro_right h2  {
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+margin-top: 20px;
+padding-bottom: 10px;
     }
 
 
      /* Social Item */
     .social_item{
         text-align: center;
+        margin: auto;
     }
 
     .social_text{
@@ -94,16 +125,20 @@
     .social_title {
         font-size: 18px;
         line-height: 24px;
+        margin-top: 31px;
 
     }
 
     .social{
         text-align: center;
+        margin: auto;
+        padding-top: 30px;
     }
 
     .social_img {
         max-width: 26px;
-        margin-right: 0;
+        margin-right: 10px;
+        
     
         
     }
@@ -124,6 +159,9 @@
 
 
     /* Awesome Item */
+
+  
+
   .awesome_desc{
       font-size: 14px;
       line-height: 17px;
@@ -170,8 +208,28 @@
 }
 
 
+.price {
+  max-width: 288px;
+}
+.price_title {
+  font-size: 18px;
+}
+
+.price_count {
+  font-size: 24px;
+}
+
+.free {
+  font-size: 14px;
+}
+
+.price_list {
+  font-size: 14px;
+}
+
 
 /* Tabs */
+
 
 .button_tabs {
     
@@ -180,6 +238,7 @@
 }
 
 .tab_content{
+  width: 100%;
     max-width: 300px;
     margin: auto;
 }
@@ -193,7 +252,8 @@
     display: none;
 }
 
-.tab_text {
+.tab_text  {
+  font-weight: 400px;
     font-size: 13px;
     line-height: 15px;
     text-align: center;
@@ -219,7 +279,20 @@
 
 
 /* Input Items*/
-.contact_left{
+.contact_title {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  }
+.contact_item {
+  margin-top: 20px;
+}
+
+.form_holder{
+  display: flex;
+  flex-direction: column;
 max-width: 290px;
 margin: auto;
 }
@@ -234,7 +307,14 @@ max-width: 288px;
 display: block;
 padding: 13px;
 margin: auto;
+margin-top: 30px;
 }
+
+.contact_title {
+  padding-top: 20px;
+}
+
+
 
 
 /* Customers */
@@ -277,7 +357,7 @@ line-height: 16px;
   
   .triangle {
     position: absolute;
-    top:165px;
+    top:184px !important;
     left: 120px;
   }
   
@@ -289,7 +369,42 @@ line-height: 16px;
   padding-top: 5px;
 }
 
+
+.design_item {
+  padding: 50px 0;
+}
+
 /* hamburger */
+.menu-btn{
+  height: 18px;
+  width: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  margin-right: 20px;
+}
+
+.menu-btn div {
+  height: 3px;
+  background: #fff;
+  width: 100%;
+  transition: .3s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .nav__check {display: none;}
 label {cursor: pointer;}
 
@@ -321,7 +436,7 @@ label {cursor: pointer;}
     left: 0;
     display: block;
     width: 320px;
-    height: 520px;
+    height: 574px;
     margin: 0;
     padding: 17px 0;
     text-transform: uppercase;
@@ -335,6 +450,9 @@ label {cursor: pointer;}
     backface-visibility: hidden;
     z-index: 1;
 }
+
+
+
 
 .menu__submenu {
     font-size: .8em;
@@ -356,6 +474,21 @@ label {cursor: pointer;}
     text-align: center;
     text-decoration: none;
     color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+
+}
+
+.nav li {
+  
+  margin-left: 0px;
+}
+
+.menu_holder {
+  display: block;
+  margin-top: 40px;
+
 }
 
 .menu__submenu .menu__item {color: #000;}
@@ -393,6 +526,7 @@ label {cursor: pointer;}
 .gallery {
 
 display: block;
+margin: auto;
 
 }
 
@@ -1092,3 +1226,4 @@ display: block;
 
 
 }
+

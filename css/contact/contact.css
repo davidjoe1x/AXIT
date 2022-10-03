@@ -1,5 +1,7 @@
 /* Contact */
-
+.contact_item {
+    margin-bottom: 50px;
+}
 .contact_title::after {
     content: "";
     position: absolute;
@@ -13,24 +15,44 @@
     margin: 0 auto;
 }
 
-.contact_left {
+.form_holder{
     width: 100%;
-    max-width: 572px;
     display: flex;
-    flex-direction: column;
-    margin-right: 40px;
-    
+    flex-direction: row;
+    margin:auto;
+    column-gap: 40px;
+
+}
+
+.contact_input {
+    width: 100%;
 }
 
 .contact_right{
     width: 100%;
-    max-width: 572px;
     display: flex;
     flex-direction: column;
     
     
+    
 }
+
+.contact_left {
+    display: flex;
+    flex-direction: column;
+  width: 100%;
+}
+
+
 .send {
     text-align: center;
     padding: 60px 0;
+}
+
+.contact_title{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
 }

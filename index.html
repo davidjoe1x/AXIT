@@ -21,17 +21,25 @@
                 <nav class="nav">
                     <input class="nav__check" type="checkbox" id="showmenu"/>
                     <label class="nav__showmenu" for="showmenu">
-                        <img src="../AXIT/assets/menu.png">
+                        <div class="menu-btn">
+                            
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            </div>  
                     </label>
+                    
                     <label class="nav__back" for="showmenu"></label>
                     <ul class="menu">
+                        <div class="menu_holder">
                         <li><a class="nav_link" href="">Features</a></li>
                         <li><a class="nav_link" href="">About</a></li>
                         <li><a class="nav_link" href="">Pricing</a></li>
                         <li><a class="nav_link" href="">Review</a></li>
                         <li><a class="nav_link" href="">Contact</a></li>
+                    </div>
                     </ul>
-             
+
 
                 
             </nav>
@@ -46,9 +54,13 @@
 <div class="intro_inner">
 <div class="intro_left">
     <img class="logo_intro" src="assets/logo_intro.png">
-    <h1 class="title_main">MODERN AXURE TEMPLATE<br> FOR BEAUTIFUL<br> PROTOTYPES</h1>
-    <p class="main_text">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit</p>
-    <a class="button_intro" href="#">Download</a>
+    <div class="main">
+    <h1 class="title_main">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+</div>
+    <div class="main_text_item">
+    <p class="main_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+</div>
+    <button class="button_intro" href="#">Download</button>
 </div>
 <div class="intro_right">
     <h2>Try Your <span>Free</span> Trial Today</h2>
@@ -56,8 +68,9 @@
     <input type="text" class="name" id="name" placeholder="Name">
     <input type="text" class="email" id="email" placeholder="Email">
     <input type="text" class="password" id="password" placeholder="Password">
+    <input type="submit" value="Get Started" class="start_button" href="#"></a>
 </form>
-    <a class="start_button" href="#">Get Started</a>
+    
 
 </div>
 </div>
@@ -87,7 +100,7 @@
 
 <!--Tabs-->
     <section class="tabs">
-        <div class="container"></div>
+        <div class="container">
 
         <div class="tab_slide">
             <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
@@ -102,6 +115,8 @@
             <div class="tab_content">
         
             <h3 class="tabs_title">Tabs with soft transitioning effect.</h3>
+            
+         
             <p class="tab_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean<br> euismod<br> 
                 bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et<br> viverra<br> 
                 justo commodo.<br> Proin sodales pulvinar tempor. Cum sociis natoque <br>
@@ -109,6 +124,7 @@
                 
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean<br> euismod <br>
                 bibendum laoreet.</p>
+           
             <a class="button_tabs" href="#">Download</a>
         </div>
         
@@ -157,10 +173,7 @@
         </div>
 
 
-        <div class="container">
-    
-            
-</div>
+        
 </section>
 
 <!--Awesome-->
@@ -431,21 +444,24 @@
                 <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
                 <div class="container">
-                    <form class="contact_left">
+                    <form class="contact_input">
+                        <div class="form_holder">
+                        <div class="contact_left">
                         <input type="text" class="name" id="name" placeholder="Name">
                         <input type="text" class="email" id="email" placeholder="Email">
                         <input type="text" class="password" id="password" placeholder="Password">
-
-                    </form>
+                    </div>
 
                     <div class="contact_right">
                         <input type="text" class="message" id="message" placeholder="Message">
-
                     </div> 
                 </div>
-                <div class="send">
-                    <a class="button_tabs button--contact" href="#">Download</a>
+                   
+                        <input type="submit" value="Send Message" class="button_tabs button--contact" href="#"></a>
+              
+                </form>
                 </div>
+                
                 
             </section>
 

@@ -2,6 +2,7 @@
 
 
 .button_intro {
+    display: block;
     width: 100%;
     max-width: 270px;
     color: #FFFFFF;
@@ -19,11 +20,15 @@
 }
 
 .design--button {
-    padding: 15px 150px;
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 400px;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
+  
     }
 
 .button_intro:hover {
@@ -79,6 +84,7 @@
     font-size: 18px;
     line-height: 25px;
     text-align: center;
+    border: none;
     
 
 }

@@ -20,8 +20,7 @@ font-weight: 400;
 font-size: 18px;
 font-family: 'Raleway';
 font-style: normal;
-font-size: 18px;
-line-height: 21px;
+line-height: 22px;
 
 }
 
@@ -31,6 +30,7 @@ line-height: 21px;
     display: flex;
     justify-content: center;
     align-items: center;
+
     
 
 }
@@ -59,6 +59,7 @@ line-height: 21px;
 }
 
 .awesome_img {
+    max-width: 170px;
     transition: .2s linear;
 }
 

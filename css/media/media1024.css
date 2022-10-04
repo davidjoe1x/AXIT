@@ -1,4 +1,4 @@
-@media only screen and (min-device-width : 780px) and (max-device-width : 1024px) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 
   .title--h2{
   line-height: 29px;
@@ -106,7 +106,7 @@ line-height: 16px;
   column-gap: 89px;
 }
 
-  }
+
 
   /* Customers */
 
@@ -176,3 +176,6 @@ line-height: 16px;
 
   /* Pricing */
  
+
+
+}
